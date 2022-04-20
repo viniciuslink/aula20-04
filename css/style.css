@@ -1,0 +1,33 @@
+.posicao{
+position: absolute;
+width: 170px; height: 100px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: bold;
+border-radius: 10px;
+}
+
+#branca{
+    top: 140px;left: 100px;
+background-color: #ffffff;
+border: solid; z-index: 4;
+}
+
+#azul{
+    top: 100px;left: 60px;
+background-color: #0066ff;
+border: solid; z-index: 3;
+}
+
+#laranja{
+top: 60px;left: 20px;
+background-color: #f59e42;
+border: solid; z-index: 2;
+
+}
+#fundo{
+    top: 20px;left: 5px;
+background-color: rgb(194, 194, 194);
+border: solid; z-index: 1;
+width: 300px; height: 250px;
+}
